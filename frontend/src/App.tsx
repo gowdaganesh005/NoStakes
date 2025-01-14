@@ -1,4 +1,7 @@
 
+import { Game } from "./components/Game";
+import { Simulation } from "./components/Simulation";
+
 
 
 function App() {
@@ -6,6 +9,9 @@ function App() {
 
   return (
    <>
+   <div className="bg-black">
+   <Game/>
+   </div>
    </>
   )
 }
